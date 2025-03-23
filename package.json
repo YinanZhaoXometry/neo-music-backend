@@ -1,7 +1,9 @@
 {
-  "name": "qq-music-api",
-  "version": "1.0.5",
-  "description": "qq music api, just for study",
+  "name": "neo-music-player-backend",
+  "version": "1.0.0",
+  "description": "Neo Music Player API",
+  "author": "Yinan Zhao",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js & npm run docs",
@@ -22,12 +24,8 @@
     "url": "git+ssh://git@github.com/Rain120/qq-music-api.git"
   },
   "keywords": [
-    "QQ音乐",
-    "音乐",
-    "QQ音乐koa2"
+    "tencent music"
   ],
-  "author": "Rain120",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Rain120/qq-music-api/issues"
   },

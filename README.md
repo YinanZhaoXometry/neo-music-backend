@@ -1,21 +1,36 @@
-# QQ Music API
+# Neo Music Backend
 
-> A Koa2 version of the QQ Music API that fetches QQ Music interface data through the web version.
+Proxy server of official Tencent Music API data.
 
-## Installation
+Should be used in pair with the front-end project:
 
-```
-git clone git@github.com:Rain120/qq-music-api.git
-cd qq-music-api
-npm install
-```
+https://github.com/YinanZhaoXometry/neo-music-frontend
 
-## Project Startup
+## Project Features
 
-```
-npm run start
+- 💻 Proxy server of official Tencent Music API data
+- 🪄 Utilizing Docsify to show API documentations
 
-node app.js
-```
+## Tech Stack
 
-The project listens on port `3200`.
+### Backend
+
+- **Koa2**: A sleek, modern Node.js framework utilizing `async/await` for efficient web development.
+- **Docsify**: It turns Markdown files into a Website, with no build process required.
+
+## Local Development
+
+1. Install dependencies
+
+   ```bash
+   # Install dependencies
+   yarn
+   ```
+
+2. Start the development server
+
+   ```bash
+   yarn start
+   ```
+
+   The project listens on port `3200`.
